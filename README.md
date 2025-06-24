@@ -2,7 +2,7 @@
 ### Project by: [kHADIJA MBWANA]
 
 ## Project Objective
-The primary goal of this project is to analyze an hospital admissions dataset to uncover insights that can help optimize hospital operations, reduce costs, and improve patient outcomes. By using SQL for data querying and Power BI for visualization, this analysis addresses critical business questions related to length of stay, resource utilization, and patient demographics.
+The primary goal of this project is to analyze an hospital admissions dataset to uncover insights that can help optimize hospital operations, reduce costs, and improve patient outcomes. By using SQL for data querying,excel for data cleaning and Power BI for visualization, this analysis addresses critical business questions related to length of stay, resource utilization, and patient demographics.
 
 ---
 
@@ -50,23 +50,23 @@ An interactive dashboard was created in Power BI to explore these findings visua
 ## Key Findings & Insights
 
 *   **Insight 1:** The primary driver for Length of Stay is the **Severity of Illness**. Patients with 'Extreme' severity stay, on average(35.43)longer than those with 'Minor' and 'moderate' severity.
-*   **Insight 2:**  bed grade 2 was most found commonly used across all severity of illness.
-*   **Insight 3:** The most common diagnosis is ****, which disproportionately affects **[Your Target Demographic, e.g., males over 60]**.
-*   **Insight 4:** **City Code 8** has a higher number of admission hence indicating a critical area for public health outreach.
+*   **Insight 2:**  bed grade 2 was found most commonly used across all severity of illness.
+*   **Insight 3:** The most common diagnosis is **depression and axiety disorder**, which disproportionately affects **males over 60]**.
+*   **Insight 4:** **City Code 8** has a higher number of admission(124,011)hence indicating a critical area for public health outreach.
 
 ---
 
 ## Actionable Recommendations
 1.  **Implement Proactive Discharge Planning:** For patients admitted with 'Extreme' or 'Severe' illness to streamline their transition and reduce Loss.
-2.  **Establish a Patient Transfer Protocol:** Create a formal system to move patients from over-capacity hospitals (like Hospital 30) to those with available beds.
-3.  **Launch a Targeted Health Campaign:** Focus community health efforts on **[Your Target Demographic]** in areas with a high prevalence of **[Your Top Diagnosis]**.
+2.  **Establish a Patient Transfer Protocol:** Create a formal system to move patients from over-capacity hospitals (like Hospital code 26) to those with available beds.
+3.  **Launch a Targeted Health Campaign:** Focus community health efforts on **city code 8** in areas with a high prevalence of **coronary artery disease**.
 
 ---
 
 ## Tools Used
-*   **Data Storage/Querying:** PostgreSQL
-*   **Data Analysis:** SQL
-*   **Data Visualization:** Power BI
+*   **Data extraction and Querying:** sql(postgreSQL)
+*   **Data cleaning:** excel
+*   **Data Visualization and dashboard creation:** Power BI
 
 ## Code
 The SQL scripts used for data cleaning, transformation, and analysis for this project can be found in this repository.
