@@ -40,7 +40,9 @@ This analysis was structured to answer the following core questions:
 
 An interactive dashboard was created in Power BI to explore these findings visually. It allows users to filter data by hospital, department, demographics, and more to uncover deeper insights.
 
-**[--- INSERT A CLEAR, HIGH-QUALITY SCREENSHOT OF YOUR MAIN POWER BI DASHBOARD PAGE HERE ---]**
+## 📸 Dashboard Preview
+
+![My Healthcare Dashboard](./assets/hospital_dashboard.png)
 
 *You can view the full interactive dashboard here:*
 **[Link to your published Power BI dashboard]**
@@ -68,5 +70,50 @@ An interactive dashboard was created in Power BI to explore these findings visua
 *   **Data cleaning:** excel
 *   **Data Visualization and dashboard creation:** Power BI
 
-## Code
+##Data Analysis & SQL Logic
+## 📊 Analysis: Impact of Illness Severity and Admission Type on Stay Duration
+
+### 🧠 Purpose
+This analysis explores how the **severity of illness** and **type of hospital admission** affect the **average hospital stay**. This insight can help hospital management plan resources better and improve patient flow.
+
+---
+
+### 💻 SQL Query
+
+```sql
+-- How severity of illness and type of admission impact stay
+SELECT
+  severity_of_illness,
+  type_of_admission,
+  COUNT(*) AS total_patient,
+  ROUND(AVG(stay_days), 2) AS avg_stay
+FROM hospital_records
+GROUP BY severity_of_illness, type_of_admission
+ORDER BY avg_stay DESC;
+```
+
+---
+
+### 📌 Sample Output (Mock Data)
+
+| Severity of Illness | Type of Admission | Total Patients | Avg Stay (days) |
+|---------------------|-------------------|----------------|---------------|
+| Extreme             | Trauma            | 28837          | 35.43         |
+| Extreme             | Emergency         | 19844          | 35.22         |
+| Moderate            | Trauma            | 86624          | 34.58         |
+
+---
+
+### ✅ Key Insights
+- Patients with **Extreme** severity and **Trauma** admissions stay the longest on average.
+- This helps highlight areas for optimizing patient care and bed utilization.
+
+---
+
+### 📁 Dataset
+- `hospital_records` contains fields like:
+  - `severity_of_illness`
+  - `type_of_admission`
+  - `stay_days`
+
 The SQL scripts used for data cleaning, transformation, and analysis for this project can be found in this repository.
