@@ -42,7 +42,7 @@ An interactive dashboard was created in Power BI to explore these findings visua
 
 ## 📸 Dashboard Preview
 
-![My Healthcare Dashboard](hospital_dashboard.png)
+![My Healthcare Dashboard screenshot](hospital_dashboard.png)
 
 ---
 
@@ -115,9 +115,13 @@ ORDER BY avg_stay DESC;
 
 [view full SQL query here](hospital_queries.sql)
 
-### contact with me
-**Email**: mbwanakhadija77@gmail.com
-**Linkedin**[linkedin.com/in/khadijambwana](www.linkedin.com/in/
+## 📬 Contact Me
+
+Feel free to reach out to me via any of the platforms below:
+
+- 📧 Email: [mbwanakhadija77@gmail.com]
+- 💼 LinkedIn: [linkedin.com/in/khadijambwana](www.linkedin.com/in/
 khadija-mbwana)
+- 🐱 GitHub: [github.com/khadijambwana](https://github.com/khadijambwana)
 
 
