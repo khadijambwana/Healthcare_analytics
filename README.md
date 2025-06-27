@@ -116,4 +116,4 @@ ORDER BY avg_stay DESC;
 [view full SQL query here](hospital_queries.sql)
 
 contact
-Email: mbwanakhadija77@gmail.com
+**Email**: mbwanakhadija77@gmail.com
