@@ -42,10 +42,7 @@ An interactive dashboard was created in Power BI to explore these findings visua
 
 ## 📸 Dashboard Preview
 
-![My Healthcare Dashboard](./assets/hospital_dashboard.png)
-
-*You can view the full interactive dashboard here:*
-**[Link to your published Power BI dashboard]**
+![My Healthcare Dashboard](hospital_dashboard.png)
 
 ---
 
@@ -116,4 +113,4 @@ ORDER BY avg_stay DESC;
   - `type_of_admission`
   - `stay_days`
 
-The SQL scripts used for data cleaning, transformation, and analysis for this project can be found in this repository.
+[view full SQL query here](hospital_queries.sql)
