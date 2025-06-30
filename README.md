@@ -113,7 +113,7 @@ ORDER BY avg_stay DESC;
   - `type_of_admission`
   - `stay_days`
 
-[view full SQL query here](hospital_queries.sql)
+[view full SQL query here](hospital_queries.md)
 
 ## 📬 Contact Me
 
