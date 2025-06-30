@@ -1,3 +1,7 @@
+![Language](https://img.shields.io/badge/Language-SQL-blue.svg)
+![Database](https://img.shields.io/badge/Database-PostgreSQL-336791.svg)
+![Visualization](https://img.shields.io/badge/Dashboard-Tableau%20%7C%20Power%20BI-lightgrey.svg)
+
 # Healthcare Operations Analytics: A Deep Dive into Hospital Admission Data
 ### Project by: [kHADIJA MBWANA]
 
